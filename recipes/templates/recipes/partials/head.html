@@ -169,6 +169,27 @@
     .search-form:focus-within .search-button {
       color: var(--color-primary);
     }
+
+    .main-content {
+      padding-top: 0;
+      /* background: blue; */
+    }
+
+    .main-content-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: var(--spacing-gutter-large);
+    }
+
+    /* combine essa classe com várias */
+    /* divs dentro da main.main-content-list */
+    /* para ver o efeito de 'grid', ou seja, */
+    /* bloco a bloco separado */
+    /* .temp { */
+    /*   height: 40rem; */
+    /*   background: red; */
+    /* } */
+
   </style>
 </head>
 
