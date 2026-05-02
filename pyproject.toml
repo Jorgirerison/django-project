@@ -12,3 +12,8 @@ dependencies = [
     "pillow>=12.1.1",
     "psycopg2-binary>=2.9.11",
 ]
+
+[dependency-groups]
+dev = [
+    "django-types>=0.23.0",
+]
